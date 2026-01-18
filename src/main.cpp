@@ -59,8 +59,8 @@ void Main::setup() {
   // [系统] 启动序列
   // 等待串口稳定并打印状态。
   delay(100); 
-  Serial.println("\n[Alice Firmware] System Online. Ready for commands.");
-  Serial.println("[Alice Firmware] Waiting for data...");
+  Serial.println("\n[Firmware] System Online. Ready for commands.");
+  Serial.println("[Firmware] Waiting for data...");
   delay(10000); 
 
   // [Multi-threading] Launch Input Task on Secondary Core (if available)
